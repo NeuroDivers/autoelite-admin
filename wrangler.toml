@@ -1,0 +1,16 @@
+name = "autoelite-admin"
+compatibility_date = "2023-11-12"
+
+# Specify the build output directory for Pages
+pages_build_output_dir = "build"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "autoelite-db"
+database_id = "281aee1c-fb5b-4870-8350-e5c86160e2bf"
+
+# Environment variables
+[vars]
+REACT_APP_CF_IMAGE_DELIVERY_URL = "https://imagedelivery.net"
+REACT_APP_CF_ACCOUNT_HASH = "fxSXhaLsNKtcGJIGPzWBwA"
