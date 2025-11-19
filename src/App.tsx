@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 // Import from shared package
-import { Vehicle } from '@autoelite/shared';
+import { Vehicle } from '@neurodivers/autoelite-shared';
 
 // Create a theme instance
 const theme = createTheme({
