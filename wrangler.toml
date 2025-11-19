@@ -1,9 +1,6 @@
 name = "autoelite-admin"
 compatibility_date = "2023-11-12"
 
-# Build configuration
-build = { command = "bash ./cloudflare-build.sh", publish = "build" }
-
 # Specify the build output directory for Pages
 pages_build_output_dir = "build"
 
