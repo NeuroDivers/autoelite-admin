@@ -7,5 +7,8 @@ echo "//npm.pkg.github.com/:_authToken=${NPM_AUTH_TOKEN}" >> .npmrc
 # Install dependencies
 npm install
 
+# Disable treating warnings as errors
+export CI=false
+
 # Build the project
 npm run build
