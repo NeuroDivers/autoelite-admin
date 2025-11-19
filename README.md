@@ -1,5 +1,9 @@
 # AutoElite Admin Dashboard
 
+## Deployment Status
+
+This application is now configured to use the shared package from GitHub Packages.
+
 Admin dashboard for the AutoElite vehicle inventory management system.
 
 ## Features
