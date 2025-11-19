@@ -11,6 +11,11 @@ echo "//npm.pkg.github.com/:_authToken=${NPM_AUTH_TOKEN}" >> .npmrc
 echo "Created .npmrc file:"
 cat .npmrc
 
+# Alternative approach: Use npm config directly
+echo "Setting npm config directly..."
+npm config set @neurodivers:registry https://npm.pkg.github.com
+npm config set //npm.pkg.github.com/:_authToken ${NPM_AUTH_TOKEN}
+
 # Install dependencies
 echo "Installing dependencies..."
 npm install
