@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
-// Import from shared package
+// Import from local shared files
 // Vehicle type is imported for future use
-import type { Vehicle } from '@neurodivers/autoelite-shared';
+import type { Vehicle } from './shared/types';
 
 // Create a theme instance
 const theme = createTheme({

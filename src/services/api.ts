@@ -1,4 +1,4 @@
-import { apiFactory } from '@neurodivers/autoelite-shared';
+import { apiFactory } from '../shared/services';
 
 // Base API URL
 const API_URL = process.env.REACT_APP_API_URL || 'https://api.autoelite.io';
